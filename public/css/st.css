@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.box{
+  display: flex;
+  flex-direction: row;  
+  flex-wrap: wrap;
+  margin: 20px;
+  text-align: center;
+}
+
+.main{
+    border: 2px solid black;
+    width: 20vw;
+    margin: 20px;
+}
+
+.kek{
+    text-align: center;
+    border: 2px solid white;
+    height: 30vh;
+    width: 30vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
