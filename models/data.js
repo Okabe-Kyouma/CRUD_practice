@@ -1,10 +1,7 @@
 const mongoose = require('mongoose');
 
-const userSchema = new mongoose.Schema({
-    id:{
-        type:Number,
-        required:true,
-    },
+const prodSchema = new mongoose.Schema({
+   
     prodName:{
         type:String,
         required:true,
@@ -17,8 +14,9 @@ const userSchema = new mongoose.Schema({
         type:String,
         required:true,
     }
-});
 
-const User = mongoose.model('User',userSchema);
+})
 
-module.exports = User;
+const Prod = mongoose.model('Prod',prodSchema);
+
+module.exports = Prod;
